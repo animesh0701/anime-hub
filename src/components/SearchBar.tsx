@@ -1,5 +1,5 @@
 import { Input, InputGroup, InputLeftElement } from "@chakra-ui/react";
-import { Search2Icon } from "@chakra-ui/icons"; //Chakra Ui impots
+import { Search2Icon } from "@chakra-ui/icons"; //Chakra Ui imports
 
 const SearchBar = () => {
   return (

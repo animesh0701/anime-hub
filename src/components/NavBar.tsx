@@ -1,6 +1,7 @@
 import React from "react";
 
-import SearchBar from "./searchBar"; //component import
+import SearchBar from "./SearchBar"; //component import
+import ColorModeSwitch from "./ColorModeSwitch";
 
 import { HStack, Image, Text } from "@chakra-ui/react"; //chakra UI component
 
@@ -13,7 +14,10 @@ const NavBar = () => {
         <Image src={luffy} boxSize={["60px", "80px", "100px"]}></Image>
         <Text>ANIMEHUB</Text>
       </HStack>
-      <SearchBar />
+      <HStack>
+        <ColorModeSwitch />
+        <SearchBar />
+      </HStack>
     </HStack>
   );
 };
